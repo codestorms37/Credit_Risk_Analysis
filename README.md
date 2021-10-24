@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of the analysis is to compare different techniques to asess credit card risk, wich is inherently an unbalanced clasification problem
+The purpose of the analysis is to compare different techniques to assess credit card risk, which is inherently an unbalanced classification problem
 
 ### Tools
 
@@ -61,9 +61,9 @@ The purpose of the analysis is to compare different techniques to asess credit c
 
 - AdaBoost seems to be the best alternative as:
   - It has the best Balanced Accuracy
-  - Precision (TruePositive / (TruePositive + FalsePositive)) for high risk cases is higher
-  - And most important for this case of credit risk, Recall (TruePositive / (TruePositive + FalseNegative)) is higer
+  - Precision (TruePositive / (TruePositive + FalsePositive)) for high-risk cases is higher
+  - And most important for this case of credit risk, Recall (TruePositive / (TruePositive + FalseNegative)) is higher
 
 ## Summary
 
-- From this analysis the AdaBoost algorithm is recommended to asses credit risk as it has better performance in all three critical indicators: Balanced Accuracy, Precision and Recall.
+- From this analysis the AdaBoost algorithm is recommended to assess credit risk as it has better performance in all three critical indicators: Balanced Accuracy, Precision and Recall.
