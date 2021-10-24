@@ -35,27 +35,25 @@ The purpose of the analysis is to compare different techniques to asess credit c
 
 #### SMOTE Oversampling
 
-![Naive Random](./resources/images/Naive_Random.png)
+![SMOTE](./resources/images/SMOTE.png)
 
 #### Cluster Centroids Undersampling
 
-![Naive Random](./resources/images/Naive_Random.png)
+![undersampling](./resources/images/undersampling.png)
 
 #### SMOTEENN (Over and Under) Sampling
 
-![Naive Random](./resources/images/Naive_Random.png)
+![SMOTEENN](./resources/images/SMOTEENN.png)
 
 ### Ensemble algorithms
 
-![Naive Random](./resources/images/Naive_Random.png)
-
 #### Random Forest
 
-![Naive Random](./resources/images/Naive_Random.png)
+![balanced_random_forest.png](./resources/images/balanced_random_forest.png)
 
 #### AdaBoost
 
-![Naive Random](./resources/images/Naive_Random.png)
+![AdaBoost](./resources/images/AdaBoost.png)
 
 
 ### Resampling Models to Predict Credit Risk
