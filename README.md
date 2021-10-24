@@ -55,13 +55,15 @@ The purpose of the analysis is to compare different techniques to asess credit c
 
 ![AdaBoost](./resources/images/AdaBoost.png)
 
+### Resume
 
-### Resampling Models to Predict Credit Risk
+![resume](./resources/images/resume.png)
 
-
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+- AdaBoost seems to be the best alternative as:
+  - It has the best Balanced Accuracy
+  - Precision (TruePositive / (TruePositive + FalsePositive)) for high risk cases is higher
+  - And most important for this case of credit risk, Recall (TruePositive / (TruePositive + FalseNegative)) is higer
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+- From this analysis the AdaBoost algorithm is recommended to asses credit risk as it has better performance in all three critical indicators: Balanced Accuracy, Precision and Recall.
